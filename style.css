@@ -7,20 +7,17 @@ main {
 
 menu {
     margin-right: 20px;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 h1 {
     font-size: 2.5em;
+    width: fit-content;
+    border: solid red 5px;
 }
-body {
-    background-image: url("59187feb32fc61999c470b1483e6c207.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+aside {
+    max-width: 1300px;
+    margin-left: 30px;
 }
-p {
-    color: red;
-}
-h1 {
-    color: red;
+footer {
+    height: 300px;
 }
