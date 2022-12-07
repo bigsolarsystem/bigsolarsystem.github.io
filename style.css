@@ -1,13 +1,22 @@
+/* body {
+    background-image: url("black.gif");
+    color: white;
+} */
 p {
     font-size: 1.5em;
 }
 main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 menu {
+    margin-top: 0;
     margin-right: 20px;
     font-size: 1.7em;
+}
+main img {
+    max-width: 100%;
 }
 h1 {
     font-size: 2.5em;
@@ -20,4 +29,24 @@ aside {
 }
 footer {
     height: 300px;
+}
+@media (max-width: 600px) {
+    aside {
+        max-width: 600px;
+        margin-left: 0;
+    }
+    menu {
+        padding-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-left: 0;
+    }
+    menu ul li {
+        padding-right: 12px;
+    }
 }
