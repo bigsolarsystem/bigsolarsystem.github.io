@@ -22,6 +22,7 @@ h1 {
     font-size: 2.5em;
     width: fit-content;
     border: solid red 5px;
+    padding: 3px;
 }
 aside {
     max-width: 1300px;
