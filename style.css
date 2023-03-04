@@ -2,6 +2,11 @@
     background-image: url("black.gif");
     color: white;
 } */
+#icon1{
+    width: 150px;
+    height: auto;
+    display: block;
+}
 p {
     font-size: 1.5em;
 }
